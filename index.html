@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack-Overflow-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars"></i>
+        <img src="images/logo-removebg-preview.png" alt="">
+        <p>stack <b>overflow</b></p>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">For Teams</a>
+        <i class="fa-solid fa-magnifying-glass"><input type="search" placeholder="Search..."></i>
+        <button type="menu" >Log in</button>
+        <button type="menu" id="sign-up">Sign up</button>
+    </header>
+    <main>
+        <section class="developer">
+            <div class="cards">
+                <div class="card" id="join">
+                    <img src="images/icons8-search-128.png" alt="">
+                    <p>Find the best answer to your technical<br>question, help others answer theirs</p>
+                    <button type="button" >Join the community</button>
+                    <p id="search">or <a href="#">search content</a></p>
+                </div>
+                <div class="card" id="team">
+                    <img src="images/icons8-lock-100.png" alt="">
+                    <p>Want a secure, private space for your<br>technical knowledge?</p>
+                    <p id="get">Get started</p>
+                    <button type="button" id="large">
+                        <p>For large organizations</p>
+                    </button>
+                    <button type="button">
+                        <p>For small teams</p>
+                    </button>
+                </div>
+            </div>
+            <div class="every">
+                <h1>Every <font color="orange">developer</font> has a<br>tab open to Stack Overflow</h1>
+                <hr>
+            </div>
+            <div class="percentage">
+                <div class="cards">
+                    <div class="card">
+                        <h2>100+ million</h2>
+                        <p>monthly visitors to Stack<br>Overflow & Stack Exchange</p>
+                    </div>
+                    <div class="card">
+                        <h2>45.1+ billion</h2>
+                        <p>Times a developer got help<br>since 2008</p>
+                    </div>
+                    <div class="card">
+                        <h2>179% ROI</h2>
+                        <p>from companies using Stack<br>Overflow for Teams</p>
+                    </div>
+                    <div class="card">
+                        <h2>5,000+</h2>
+                        <p>Stack Overflow for Teams<br>instances active every day</p>
+                    </div>
+                </div>
+            </div>
+            <div class="global">
+                <div class="cards">
+                    <div class="card" id="community">
+                        <div class="public">
+                            <img src="images/logo-removebg-preview.png" alt="">
+                            stack <b>overflow</b>
+                        </div>
+                        <img src="images/illo-public.svg" alt="" class="world">
+                        <h3>A public platform building the<br>definitive collection of coding<br>questions & answers</h3>
+                        <p>A community-based space to find and contribute answers<br>to technical challenges, and one of the most popular<br>websites in the world.</p>
+                        <button type="button">Join the community</button>
+                        <p class="little">or <a href="#">search content</a></p>
+                    </div>
+                    <div class="card" id="small">
+                        <div class="public">
+                            <img src="images/logo-removebg-preview.png" alt="">
+                            <b>FOR TEAMS</b>
+                        </div>
+                        <img src="images/illo-teams.svg" alt="" class="world">
+                        <h3>A private collaboration & knowledge<br>sharing SaaS platform for<br>companies</h3>
+                        <p>A web-based platform to increase productivity, decrease<br>cycle times, accelerate time to market, and protect<br>institutional knowledge.</p>
+                        <p id="started">Get started</p>
+                        <button type="button">
+                            For large organizations
+                            <img src="images/icons8-company-64.png" alt="">
+                        </button>
+                        <button type="button">
+                            For small teams
+                            <img src="images/icons8-team-96.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="brands">
+            <div id="teams">
+                <h4>Thousands of organizations around the globe use Stack Overflow for Teams</h4> 
+                <div class="card">
+                    <img src="images/barkbox-alt.svg" alt="">
+                    <img src="images/box-alt.svg" alt="">
+                    <img src="images/bloomberg-alt.svg" alt="">
+                    <img src="images/chevron-alt.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="web-site">
+            <div class="pictures">
+                <img id="question" src="images/illo-question.png" alt="">
+                <img id="for-you" src="images/illo-for-you.png" alt="">
+                <img id="home-search" src="images/illo-home-search.png" alt="">
+            </div>
+            <div class="paid">
+                <div>
+                    <div class="logo">
+                        <img src="images/logo-removebg-preview.png" alt="">
+                        <div>
+                            <p>stack<b>overflow</b></p>
+                            <font color="orange">FOR TEAMS</font>
+                        </div>
+                    </div>
+                    <h3>Capture your company’s knowledge and context in a<br>discoverable format to <font color="orange">unblock your team</font></h3>
+                    <button type="button">Take a tour of Teams</button>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/icons8-tick-48.png" alt="">
+                        <h3>Increase productivity</h3>
+                        <p>If somebody somewhere has the right<br>answer, suddenly you have it too.<br>Collaborate better in a remote-first world.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/icons8-tick-48.png" alt="">
+                        <h3>Accelerate time to market</h3>
+                        <p>Shorten the time between initial idea and<br>complete product. Take delays and<br>misinformation out of the equation.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/icons8-tick-48.png" alt="">
+                        <h3>Protect institutional knowledge</h3>
+                        <p>People come and people go, but if you<br>capture their contributions in one central<br>place, that expertise sticks around.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="ensure">
+                    <h2>Ensure your company stays on course</h2>
+                    <p>Here are just a few types of technologists that we help.</p>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="images/icons8-rocket-64.png" alt="">
+                            <h3>DevOps<br>engineers</h3>
+                        </div>
+                        <div class="card">
+                            <img src="images/icons8-change-96.png" alt="">
+                            <h3>Data<br>scientists</h3>
+                        </div>
+                        <div class="card" id="software">
+                            <img src="images/icons8-software-64.png" alt="">
+                            <h3>Software<br>engineers</h3>
+                            <p>Help engineers be more efficient and<br>streamline knowledge sharing using a<br>tool they already love and trust.</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/icons8-support-64.png" alt="">
+                            <h3>Support<br>teams</h3>
+                        </div>
+                        <div class="card">
+                            <img src="images/icons8-leader-64.png" alt="">
+                            <h3>Engineering<br>leaders</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="paid-plan">
+                    <div class="annual">
+                        <p>Annual billing discount</p>
+                        <div class="toggle">
+                            <input type="checkbox" class="checkbox" id="checkbox">
+                            <label for="checkbox" class="label">
+                                <div class="ball"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <button style="background-color: #f98b05; color: white">Free</button>
+                            <h1>Free</h1>
+                            <p>No credit card required</p>
+                            <hr style="color: #f9d5a8;">
+                            <div class="pre-meta">
+                                <div class="meta">
+                                    <img src="images/discount/icons8-megaphone-30.png" alt="">
+                                    <p>ChatOps integrations - Slack & Microsoft Teams</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-secure-32.png" alt="">
+                                    <p>Your own private space hosted on stackoverflow.com</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-folder-30.png" alt="">
+                                    <p>Structured and searchable knowledge base</p>
+                                </div>
+                            </div>
+                            <div class="get-btn">
+                                <button type="button" style="background-color: #f98b05; color: white">Create a free Team</button>
+                                <p>Always free up to 50 teammates</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <button style="background-color: #e2dada; color: rgb(88, 83, 83)">Basic</button>
+                            <h1>$6 USD</h1>
+                            <p>per teammeate / month</p>
+                            <hr style="color: #878484">
+                            <div class="pre-meta">
+                                <div class="meta">
+                                    <img src="images/discount/icons8-key-2-50.png" alt="">
+                                    <p>Single sign-on (SSO) with SAML + Okta integration</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-megaphone-30.png" alt="">
+                                    <p>ChatOps integrations - Slack & Microsoft Teams</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-secure-32.png" alt="">
+                                    <p>Your own private space space hosted on stackoverflow.com</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-folder-30.png" alt="">
+                                    <p>Structured and searchable knowledge base</p>
+                                </div>
+                            </div>
+                            <div class="get-btn">
+                                <button type="button" style="background-color: #e2dada">Get started</button>
+                                <p>Up to 250 teammates</p>
+                            </div>
+                        </div>
+                        <div class="card" id="recommended">
+                            <nav>
+                                <h1>RECOMMENDED</h1>
+                            </nav>
+                            <div>
+                                <button style="background-color: #5a5757; color: black">Basic</button>
+                                <h1>$12 USD</h1>
+                                <p>per teammeate / month</p>
+                                <hr style="color: #878484">
+                                <div class="pre-meta">
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-plus-math-30.png" alt="">
+                                        <p>All the features knowledge of Basic plus...</p>
+                                    </div>
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-news-16.png" alt="">
+                                        <p>Long-form knowledge with Articles</p>
+                                    </div>
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-wedding-rings-16.png" alt="">
+                                        <p>Additional integrations - Chatops, Jira, GitHub & Okta</p>
+                                    </div>
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-database-view-16.png" alt="">
+                                        <p>Group content together into Collections</p>
+                                    </div>
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-bar-chart-16.png" alt="">
+                                        <p>Usage and adoption metrics</p>
+                                    </div>
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-plus-math-30.png" alt="">
+                                        <p>Priority customer support</p>
+                                    </div>
+                                    <div class="meta">
+                                        <img src="images/discount/icons8-wrench-50.png" alt="">
+                                        <p>Content Health tools</p>
+                                    </div>
+                                </div>
+                                <div class="get-btn">
+                                    <button type="button" style="background-color: #5a5757">Get started</button>
+                                    <p>Unlimited teammates</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <button style="background-color: #0a1f70; color: black">Basic</button>
+                            <h1>Custom pricing</h1>
+                            <p>Let's talk about what you need</p>
+                            <hr style="color: #878484">
+                            <div class="pre-meta">
+                                <div class="meta">
+                                    <img src="images/discount/icons8-plus-math-30.png" alt="">
+                                    <p>Premium faetures of Business plus...</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-member-30.png" alt="">
+                                    <p>Unlimited Teams within your instance</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-mission-30.png" alt="">
+                                    <p>Flexible hosting options - cloud or on-premises</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-source-code-30.png" alt="">
+                                    <p>Robust read and write API</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-comments-30.png" alt="">
+                                    <p>Your own customer success and community building representative</p>
+                                </div>
+                                <div class="meta">
+                                    <img src="images/discount/icons8-doctors-bag-24.png" alt="">
+                                    <p>99.5% uptime SLA and priority support</p>
+                                </div>
+                            </div>
+                            <div class="get-btn">
+                                <button type="button" style="background-color: #0a1f70; color: white">Request a demo</button>
+                                <p>Unlimited teammates</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="option" class="pre-info">
+                <div class="cards">
+                    <div class="card">
+                        <p>A Forrester Consulting study shows
+                        <b style="color: rgb(18, 82, 243);">179% return on investment</b> 
+                        with Stack Overflow for Teams.</p>
+                    </div>
+                    <div class="card">
+                        <p>The world’s largest telecom firm <b style="color: rgb(18, 82, 243)">saved $10M</b> in deflected
+                            support cases with our centralized knowledge base.</p>
+                    </div>
+                    <div class="card">
+                        <p>Subject-matter experts at software platform Unqork had <b style="color: rgb(18, 82, 243);">27% more time</b> to work on 
+                            projects after using Teams.</p>
+                    </div>
+                    <div id="calc">
+                        <p>
+                            You can save time and money with Stack Overflow for Teams.
+                        </p>
+                        <button type="button" style="color: rgb(8, 139, 183);">Calculate your ROI</button>
+                    </div>
+                </div>
+            </div>
+            <div class="teams">
+                <div class="mark">
+                    <img class="mark-image" src="images/illo-integrations-left.png" alt="">
+                    <div class="mark-logo">
+                        <img src="images/microsoft-teams-logo.svg" alt="">
+                        <p>Microsoft Teams</p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <h2>Integrates with and improves other tools</h2>
+                    <p>All plans come with integrations for ChatOps tools <font style="color: #088bb7">Slack</font> & <font style="color: #088bb7">Microsoft Teams</font> in order to cut down on 
+                        pings, limit distractions and make the tools even more powerful. Business and Enterprise customers 
+                        get access to Jira, GitHub & Okta integrations.</p>
+                    <div>
+                        <img src="images/icons8-slack-new-50.png" alt="">
+                        <img src="images/microsoft-teams-logo.svg" alt="">
+                        <img src="images/icons8-github-30.png" alt="">
+                        <img src="images/jira.png" alt="">
+                        <img src="images/okta.png" alt="">
+                    </div>
+                    <p>Some of the premium features available with paid tiers.</p>
+                </div>
+                <div class="mark">
+                    <div class="mark-logo">
+                        <img src="images/icons8-slack-new-50.png" alt="">
+                        <p>Microsoft Teams</p>
+                    </div>
+                    <img class="mark-image" src="images/illo-integrations-right.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="lock-key-cards">
+                <div class="card">
+                    <img src="images/discount/icons8-key-2-50.png" alt="">
+                    <p>Robust read and write<br>API</p>
+                </div>
+                <div class="card">
+                    <img src="images/icons8-lock-100.png" alt="">
+                    <p>Single sign-on with AD or<br>SAML</p>
+                </div>
+                <div class="card">
+                    <img src="images/icons8-people-working-together-96.png" alt="">
+                    <p>Your own customer<br>success representative</p>
+                </div>
+                <div class="card">
+                    <img src="images/icons8-online-support-64.png" alt="">
+                    <p>99.5% uptime SLA and<br>priority support</p>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="card">
+                    <img src="images/icons8-quote-left-30.png" alt="">
+                    <p>Stack Overflow for Teams has been a resource for 
+                        our entire company. Not only for developers to 
+                        solve problems, it’s also enabled our sales field 
+                        to answer technical questions that help 
+                        them close deals.</p>
+                    <h4>Director of Product Management</h4>
+                    <p>Microsoft</p>
+                </div>
+                <div class="card">
+                    <img src="images/icons8-quote-left-30.png" alt="">
+                    <p>Engineers should help solve the hardest questions, 
+                        the unknowns, where being familiar with how 
+                        the product was built is essential. 
+                        But we don’t want to keep answering solved 
+                        problems over and over again. That’s where 
+                        Stack Overflow for Teams really helps.</p>
+                    <h4>Director of Engineering</h4>
+                    <p>Elastic Cloud</p>
+                </div>
+                <div class="card">
+                    <img src="images/icons8-quote-left-30.png" alt="">
+                    <p>As we started to use [Stack Overflow for Teams] 
+                        and saw how nice it was to have a repository of 
+                        information, we started to see it spread to 
+                        other teams. Our customer support team started 
+                        using it, our people success team started using 
+                        it, next thing we knew, we had [Slack] integrations 
+                        all over the place.</p>
+                    <h4>Engineering</h4>
+                    <p>Expensify</p>
+                </div>
+                <div class="card">
+                    <img src="images/icons8-quote-left-30.png" alt="">
+                    <p>What we love about Stack Overflow for Teams 
+                        is that it’s a very dynamic tool…there’s just 
+                        so many ways to use this as a liaison between 
+                        different teams and different knowledge bases.</p>
+                    <h4>Software Engineer</h4>
+                    <p>Box</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="additional">
+                <div class="add-image">
+                    <img src="images/illo-about-left.png" alt="">
+                </div>
+                <div class="add-products">
+                    <div class="public">
+                        <img src="images/logo.png" alt="">
+                        <p>stack<b>overflow</b></p>
+                    </div>
+                    <h2>Additional products that reach and engage developers & technologists…</h2>
+                </div>
+                <div class="add-image">
+                    <img src="images/illo-about-right.png" alt="">
+                </div>
+            </div>
+            <div class="adver-collect">
+                <div class="card">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                        <h1>ADVERTISING</h1>
+                    </div>
+                    <p>Reach the world's largest audience of<br>developers and technologists</p>
+                </div>
+                <div class="card">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                        <h1>COLLECTIVES</h1>
+                    </div>
+                    <p>Connecting communities with the specific<br>technologies they use the most</p>
+                </div>
+                <div class="card" id="talent">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                        <h1>TALENT</h1>
+                    </div>
+                    <p>Build your employer brand</p>
+                </div>
+            </div>
+            <div class="work">
+                <button type="button">About the company</button>
+                <a href="#">Want to work here?<font style="color: #05b3d6"> Current job openings</font></a>
+            </div>
+        </section>
+        <section>
+            <div class="stack-exchange">
+                <div class="card-img">
+                    <img class="big" src="images/apple-touch-icon (1).png" alt="">
+                    <img class="small" src="images/apple-touch-icon (10).png" alt="">
+                    <img class="small" src="images/apple-touch-icon.png" alt="">
+                    <img class="small" src="images/apple-touch-icon (9).png" alt="">
+                    <img class="big" src="images/apple-touch-icon (2).png" alt="">
+                    <img class="small" src="images/apple-touch-icon (7).png" alt="">
+                </div>
+                <div class="card-middle">
+                    <h2>Stack<b>Exchange</b>
+                        <sup>
+                            <img src="images/discount/icons8-stack-exchange-50.png" alt="">
+                        </sup>
+                    </h2>
+                    <h1>Explore technical topics and other disciplines across 170+ Q&A communities</h1>
+                    <p>From <font style="color: #05b3d6">Server Fault</font> to <font style="color: #05b3d6">Super User</font>, much of the Stack 
+                        Exchange network continues our mission to empower the world to develop 
+                        technology through collective knowledge. Other sites on the Stack 
+                        Exchange network further encourage knowledge sharing across topics 
+                        such as cooking and medicine.
+                    </p>
+                    <button type="button">Explore the network</button>   
+                </div>
+                <div class="card-img">
+                    <img class="big" src="images/apple-touch-icon (8).png" alt="">
+                    <img class="small" src="images/apple-touch-icon (11).png" alt="">
+                    <img class="small" src="images/apple-touch-icon (3).png" alt="">
+                    <img class="big" src="images/apple-touch-icon (6).png" alt="">
+                    <img class="small" src="images/apple-touch-icon (4).png" alt="">
+                    <img class="big" src="images/apple-touch-icon (5).png" alt="">
+                </div>
+            </div>
+            <div class="create">
+                <img src="images/icons8-lock-100.png" alt="">
+                <p>Build a <font style="color: black;">private community</font> to share technical or non-technical knowledge.</p>
+                <button type="button">Create a free Team</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="images/logo-removebg-preview.png" alt="">
+        <div class="list">
+            <h2>STACK OVERFLOW</h2>
+            <ul>
+                <li>Questions</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>PRODUCTS</h2>
+            <ul>
+                <li>Teams</li>
+                <li>Advertising</li>
+                <li>Collectives</li>
+                <li>Talent</li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>COMPANY</h2>
+            <ul>
+                <li>About</li>
+                <li>Press</li>
+                <li>Work Here</li>
+                <li>Legal</li>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Contact Us</li>
+                <li>Cookie Settings</li>
+                <li>Cookie Policy</li>
+            </ul>
+        </div>
+        <div class="list">
+            <h2>STACK EXCHANGE NETWORK</h2>
+            <ul>
+                <li>Technology</li>
+                <li>Culture & recreation</li>
+                <li>Life & arts</li>
+                <li>Science</li>
+                <li>Professional</li>
+                <li>Business</li>
+                <br>
+                <li>API</li>
+                <li>Data</li>
+            </ul>
+        </div>
+        <div class="social">
+            <div>
+                <ul>
+                    <li>Blog</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+            <div>
+                <p>Site design / logo © 2022 Stack 
+                    Exchange Inc; user contributions <br>
+                    licensed under CC BY-SA. rev 2022.9.1.42957</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
